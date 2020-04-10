@@ -349,18 +349,6 @@ sudo pacman -S ttf-roboto --noconfirm --needed
 sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed
 sudo pacman -S tamsyn-font --noconfirm --needed
 
-
-[ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
-
-
-echo "Copy fonts to .fonts"
-
-cp Personal/settings/fonts/* ~/.fonts/
-
-echo "Building new fonts into the cache files";
-echo "Depending on the number of fonts, this may take a while..."
-fc-cache -fv ~/.fonts
-
 echo ""
 
 # ----------------
