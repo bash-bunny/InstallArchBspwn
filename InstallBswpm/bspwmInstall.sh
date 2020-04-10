@@ -368,7 +368,7 @@ sudo pacman -S --noconfirm --needed hydra
 sudo pacman -S --noconfirm --needed john hashcat
 sudo pacman -S --noconfirm --needed nikto
 sudo pacman -S --noconfirm --needed sqlmap
-sudo pacman -S --noconfirm --needed wireshark tcpdump
+sudo pacman -S --noconfirm --needed wireshark-qt tcpdump
 
 # AUR Repo
 yay -S --noconfirm --needed dirb gobuster wfuzz dirbuster
