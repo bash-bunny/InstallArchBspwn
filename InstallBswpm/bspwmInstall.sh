@@ -26,7 +26,7 @@ echo ""
 
 echo "Setting Display Manager"
 
-sudo pacman -Syu
+sudo pacman -Syu --noconfirm --needed
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings bspwm sxhkd --noconfirm --needed
 sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
