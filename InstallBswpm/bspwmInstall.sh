@@ -227,7 +227,7 @@ sudo pacman -S --noconfirm --needed zenity
 ###############################################################################################
 
 # installation of zippers and unzippers
-sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract file-roller tar bzip2 gzip p7zip rar
+sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj cabextract file-roller tar bzip2 gzip p7zip
 
 echo ""
 
@@ -241,7 +241,7 @@ cd ~
 git clone //aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-cd ~/InstallBspwm
+cd ~/InstallArch/InstallBswpm
 
 echo "Installing category Accessories"
 
