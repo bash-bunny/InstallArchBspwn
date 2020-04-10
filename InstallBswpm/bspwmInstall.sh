@@ -253,7 +253,6 @@ yay -S --noconfirm python2-pyparted
 echo "Installing category Multimedia"
 
 yay -S --noconfirm gradio
-yay -S --noconfirm radiotray
 
 echo "Installing category System"
 
