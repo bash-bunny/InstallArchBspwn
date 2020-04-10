@@ -238,7 +238,7 @@ echo ""
 echo "Installing yay"
 
 cd ~
-git clone //aur.archlinux.org/yay.git
+git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 cd ~/InstallArch/InstallBswpm
