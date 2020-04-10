@@ -223,6 +223,8 @@ sudo pacman -S --noconfirm --needed xdg-user-dirs
 sudo pacman -S --noconfirm --needed xdo
 sudo pacman -S --noconfirm --needed xdotool
 sudo pacman -S --noconfirm --needed zenity
+sudo pacman -S --noconfirm --needed man
+sudo pacman -S --noconfirm --needed cmake
 
 ###############################################################################################
 
