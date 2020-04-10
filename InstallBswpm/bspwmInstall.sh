@@ -242,7 +242,7 @@ echo "Installing yay"
 cd ~
 git clone https://aur.archlinux.org/yay.git
 cd yay
-makepkg -si
+makepkg -si --noconfirm
 cd ~/InstallArch/InstallBswpm
 
 echo "Installing category Accessories"
