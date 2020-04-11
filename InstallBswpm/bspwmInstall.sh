@@ -371,7 +371,7 @@ sudo pacman -S --noconfirm --needed sqlmap
 sudo pacman -S --noconfirm --needed wireshark-qt tcpdump
 
 # AUR Repo
-yay -S --noconfirm --needed dirb gobuster wfuzz dirbuster
+yay -S --noconfirm --needed dirb gobuster-git wfuzz-git dirbuster
 yay -S --noconfirm --needed burpsuite
 yay -S --noconfirm --needed exploit-db-git
 
