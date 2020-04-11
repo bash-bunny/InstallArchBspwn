@@ -28,7 +28,6 @@ cp .Xresources ~/.
 echo "Copying config files to .config folder..."
 
 cp -r config/bspwm ~/.config/
-cp -r config/conky ~/.config/
 cp -r config/polybar ~/.config/
 cp -r config/Thunar ~/.config/
 cp -r config/variety ~/.config/
