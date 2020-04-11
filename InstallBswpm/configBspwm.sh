@@ -44,4 +44,7 @@ chmod +x bspwmrc autostart.sh
 cd ~/.config/polybar
 chmod +x launch.sh
 
+echo "Setting some configuration..."
+sudo rmmod pcspkr # Disable fucking beep sound
+
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
