@@ -46,5 +46,6 @@ chmod +x launch.sh
 
 echo "Setting some configuration..."
 sudo rmmod pcspkr # Disable fucking beep sound
+sudo localectl set-x11-keymap es # Set the keyboard map
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
