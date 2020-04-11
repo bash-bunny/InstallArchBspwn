@@ -36,3 +36,8 @@ cp -r config/variety ~/.config/
 echo "Copying wallpapers"
 
 cp -r backgrounds/ ~/Pictures/
+
+echo "Setting permissions..."
+
+cd ~/.config/bspwm/
+chmod +x bspwmrc autostart.sh
