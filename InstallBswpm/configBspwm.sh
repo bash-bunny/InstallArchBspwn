@@ -34,4 +34,4 @@ cp -r config/variety ~/.config/
 
 echo "Copying wallpapers"
 
-cp -r backgrounds/ /usr/share/
+cp -r backgrounds/ ~/Pictures/
