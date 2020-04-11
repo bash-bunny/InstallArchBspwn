@@ -225,6 +225,7 @@ sudo pacman -S --noconfirm --needed xdotool
 sudo pacman -S --noconfirm --needed zenity
 sudo pacman -S --noconfirm --needed man
 sudo pacman -S --noconfirm --needed cmake
+sudo pacman -S --noconfirm --needed ranger
 
 ###############################################################################################
 
