@@ -226,6 +226,7 @@ sudo pacman -S --noconfirm --needed zenity
 sudo pacman -S --noconfirm --needed man
 sudo pacman -S --noconfirm --needed cmake
 sudo pacman -S --noconfirm --needed ranger
+sudo pacman -S --noconfirm --needed rofi
 
 ###############################################################################################
 
