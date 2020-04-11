@@ -1,4 +1,4 @@
-#!/usr/bin
+#!/bin/bash
 
 echo "Folders and files configuration"
 
