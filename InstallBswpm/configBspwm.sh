@@ -52,6 +52,10 @@ chmod +x bspwmrc autostart.sh
 cd ~/.config/polybar
 chmod +x launch.sh
 
+echo "Setting /etc & /usr config files"
+sudo cp oblogout.conf /etc/
+sudo cp -r solarized-square /user/share/themes/
+
 echo "Setting some configuration..."
 sudo rmmod pcspkr # Disable fucking beep sound
 sudo localectl set-x11-keymap es # Set the keyboard map
