@@ -4,6 +4,8 @@ echo "Folders and files configuration"
 
 echo "Creating Directories..."
 
+user=$(whoami)
+
 if [ ! -d "~/.config" ] 
 then
     mkdir -p ~/.config
@@ -56,5 +58,11 @@ sudo localectl set-x11-keymap es # Set the keyboard map
 # Config pacman
 sudo cp mirrorupgrade.hook /etc/pacman.d/hooks/
 sudo cp pacman.conf /etc/
+
+sudo su
+cd 
+ln -sf /home/$user/.vim .vim
+ln -sf /home/$user/.tmux.conf .tmux.conf
+exit
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
