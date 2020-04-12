@@ -69,3 +69,5 @@ sudo su
 cd 
 ln -sf /home/$user/.vim .vim
 ln -sf /home/$user/.tmux.conf .tmux.conf
+
+reboot
