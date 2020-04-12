@@ -342,7 +342,7 @@ echo ""
 # Fonts
 # --------------------
 
-echo "Installing fonts from Arch Linux repo"
+echo "Installing fonts and themes from Arch Linux repo"
 
 sudo pacman -S adobe-source-sans-pro-fonts --noconfirm --needed
 sudo pacman -S cantarell-fonts --noconfirm --needed
@@ -356,6 +356,7 @@ sudo pacman -S ttf-liberation --noconfirm --needed
 sudo pacman -S ttf-roboto --noconfirm --needed
 sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed
 sudo pacman -S tamsyn-font --noconfirm --needed
+sudo pacman -S breeze --noconfirm --needed
 
 echo ""
 
