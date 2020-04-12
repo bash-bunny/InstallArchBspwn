@@ -311,7 +311,6 @@ sudo pacman -S xfce4-screenshooter --noconfirm --needed
 sudo pacman -S xfce4-settings --noconfirm --needed
 sudo pacman -S xfce4-taskmanager --noconfirm --needed
 sudo pacman -S xfce4-notifyd --noconfirm --needed
-sudo pacman -S betterlockscreen --noconfirm --needed
 
 echo ""
 
@@ -330,6 +329,8 @@ yay -S --noconfirm xtitle
 yay -S --noconfirm polybar
 
 yay -S --noconfirm urxvt-resize-font-git
+
+yay -S --noconfirm --needed betterlockscreen
 
 echo ""
 
