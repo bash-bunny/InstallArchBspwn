@@ -274,6 +274,7 @@ yay -S --noconfirm the_platinum_searcher-bin
 yay -S --noconfirm ttf-font-awesome
 yay -S --noconfirm ttf-mac-fonts
 yay -S --noconfirm nerd-fonts-hack 
+yay -S --noconfirm vivaldi
 
 # these come always last
 
