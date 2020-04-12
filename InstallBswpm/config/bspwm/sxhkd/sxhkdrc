@@ -205,7 +205,7 @@ ctrl + alt + i
 
 #Slimlock
 ctrl + alt + l
-   i3lock -i ~/Pictures/LockScreen/Constellation_No_PoweredbyLinux_Reference_2K_W.png -t -e -f 
+   betterlockscreen -l 
 
 #Slimlock
 #super + l
