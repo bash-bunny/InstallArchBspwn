@@ -53,6 +53,7 @@ chmod +x launch.sh
 echo "Setting some configuration..."
 sudo rmmod pcspkr # Disable fucking beep sound
 sudo localectl set-x11-keymap es # Set the keyboard map
+# Config pacman
 sudo cp mirrorupgrade.hook /etc/pacman.d/hooks/
 sudo cp pacman.conf /etc/
 
