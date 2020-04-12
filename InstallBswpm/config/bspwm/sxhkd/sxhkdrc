@@ -64,7 +64,7 @@ super + F12
 
 #Browser
 super + w
-    vivaldi-stable
+    firefox
 
 #Conky-toggle
 super + c
