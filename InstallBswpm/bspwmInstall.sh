@@ -161,7 +161,9 @@ sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed hexchat
 sudo pacman -S --noconfirm --needed qbittorrent
-sudo pacman -S --noconfirm --needed vivaldi
+sudo pacman -S --noconfirm --needed lynx
+sudo pacman -S --noconfirm --needed tor
+sudo pacman -S --noconfirm --needed tor-browser
 
 echo "Installing category Multimedia"
 
@@ -374,6 +376,7 @@ sudo pacman -S --noconfirm --needed john hashcat
 sudo pacman -S --noconfirm --needed nikto
 sudo pacman -S --noconfirm --needed sqlmap
 sudo pacman -S --noconfirm --needed wireshark-qt tcpdump
+sudo pacman -S --noconfirm --needed proxychains-ng
 
 # AUR Repo
 yay -S --noconfirm --needed dirb gobuster-git wfuzz-git dirbuster
