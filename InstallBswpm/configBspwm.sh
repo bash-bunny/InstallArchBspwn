@@ -54,5 +54,6 @@ echo "Setting some configuration..."
 sudo rmmod pcspkr # Disable fucking beep sound
 sudo localectl set-x11-keymap es # Set the keyboard map
 sudo cp mirrorupgrade.hook /etc/pacman.d/hooks/
+sudo cp pacman.conf /etc/pacman.conf
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
