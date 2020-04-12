@@ -52,9 +52,11 @@ chmod +x bspwmrc autostart.sh
 cd ~/.config/polybar
 chmod +x launch.sh
 
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
 echo "Setting /etc & /usr config files"
-sudo cp oblogout.conf /etc/
-sudo cp -r solarized-square /user/share/themes/
+sudo mv oblogout.conf /etc/
+sudo mv solarized-square /user/share/themes/
 
 echo "Setting some configuration..."
 sudo rmmod pcspkr # Disable fucking beep sound
@@ -67,6 +69,3 @@ sudo su
 cd 
 ln -sf /home/$user/.vim .vim
 ln -sf /home/$user/.tmux.conf .tmux.conf
-exit
-
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
