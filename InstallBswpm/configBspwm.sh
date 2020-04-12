@@ -25,6 +25,7 @@ cp .tmux.conf ~/.
 cp vim/vimrc ~/.vim
 cp .Xresources ~/.
 cp .xinitrc ~/.
+cp .Xdefaults ~/.
 
 echo "Copying config files to .config folder..."
 
