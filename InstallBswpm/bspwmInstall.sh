@@ -230,6 +230,7 @@ sudo pacman -S --noconfirm --needed cmake
 sudo pacman -S --noconfirm --needed ranger
 sudo pacman -S --noconfirm --needed rofi
 sudo pacman -S --noconfirm --needed reflector
+sudo pacman -S --noconfirm --needed mlocate
 
 ###############################################################################################
 
