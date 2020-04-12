@@ -20,7 +20,7 @@ $HOME/.config/polybar/launch.sh &
 
 #Some ways to set your wallpaper besides variety or nitrogen
 #feh --bg-scale ~/.config/bspwm/wall.png &
-feh --bg-fill ~/Pictures/journey_in_middle_earth.png &
+feh --bg-fill ~/Pictures/backgrounds/journey_in_middle_earth.png &
 #feh --randomize --bg-fill ~/Képek/*
 #feh --randomize --bg-fill ~/Dropbox/Apps/Desktoppr/*
 
@@ -38,7 +38,7 @@ blueberry-tray &
 picom --config $HOME/.config/bspwm/picom.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
-betterlockscreen -u ~/Pictures/LockScreen/ &
+betterlockscreen -u ~/Pictures/backgrounds/LockScreen/ &
 #run volumeicon &
 #nitrogen --restore &
 #run caffeine &
