@@ -163,7 +163,6 @@ sudo pacman -S --noconfirm --needed hexchat
 sudo pacman -S --noconfirm --needed qbittorrent
 sudo pacman -S --noconfirm --needed lynx
 sudo pacman -S --noconfirm --needed tor
-sudo pacman -S --noconfirm --needed tor-browser
 
 echo "Installing category Multimedia"
 
@@ -275,6 +274,7 @@ yay -S --noconfirm ttf-font-awesome
 yay -S --noconfirm ttf-mac-fonts
 yay -S --noconfirm nerd-fonts-hack 
 yay -S --noconfirm vivaldi
+yay -S --noconfirm tor-browser
 
 # these come always last
 
