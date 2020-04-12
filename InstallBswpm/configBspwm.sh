@@ -17,6 +17,11 @@ then
     mkdir -p ~/.vim/bundle
 fi
 
+if [ ! -d "/etc/pacman.d/hooks" ]
+then
+    sudo mkdir -p /etc/pacman.d/hooks
+fi
+
 echo "Copying Files to HOME ..."
 
 cp .bashrc ~/.
