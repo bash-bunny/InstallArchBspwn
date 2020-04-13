@@ -57,7 +57,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 echo "Setting /etc & /usr config files"
 cd ~/InstallArch/InstallBswpm/
 sudo cp oblogout.conf /etc/
-sudo cp -r solarized-square /user/share/themes/
+sudo cp -r solarized-squares64/ /user/share/themes/
 
 echo "Setting some configuration..."
 sudo rmmod pcspkr # Disable fucking beep sound
