@@ -70,5 +70,3 @@ sudo su -
 echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
 ln -sf /home/$user/.vim .vim/
 ln -sf /home/$user/.tmux.conf .tmux.conf
-
-reboot
