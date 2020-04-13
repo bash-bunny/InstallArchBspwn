@@ -56,9 +56,13 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 sleep 1
 
-echo "Setting /etc & /usr config files"
+echo 'Setting /etc and /usr config files'
 cd ~/InstallArch/InstallBswpm/
 sudo cp oblogout.conf /etc/
+if [ ! -d "/user/share/themes" ]
+then
+    sudo mkdir -p /user/share/themes
+fi
 sudo cp -r solarized-squares64/ /user/share/themes
 
 sleep 1
@@ -71,7 +75,7 @@ sudo cp mirrorupgrade.hook /etc/pacman.d/hooks/
 sudo cp pacman.conf /etc/
 
 echo "Configuring root files..."
-sudo -- -sh -c <<EOF
+sudo -- sh -c <<EOF
 ln -sf /home/$user/.vim .vim/
 ln -sf /home/$user/.tmux.conf .tmux.conf
 echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf # Disable fucking beep sound
