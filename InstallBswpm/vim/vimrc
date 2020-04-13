@@ -64,6 +64,7 @@ set showbreak=▹
 
 " Auto indent what you can
 set autoindent
+filetype plugin indent on	" Smart auto indentation
 
 " Searching
 set ignorecase
