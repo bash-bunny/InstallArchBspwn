@@ -55,8 +55,9 @@ chmod +x launch.sh
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 echo "Setting /etc & /usr config files"
-sudo mv oblogout.conf /etc/
-sudo mv solarized-square /user/share/themes/
+cd ~/InstallArch/InstallBswpm/
+sudo cp oblogout.conf /etc/
+sudo cp -r solarized-square /user/share/themes/
 
 echo "Setting some configuration..."
 sudo rmmod pcspkr # Disable fucking beep sound
@@ -65,9 +66,9 @@ sudo localectl set-x11-keymap es # Set the keyboard map
 sudo cp mirrorupgrade.hook /etc/pacman.d/hooks/
 sudo cp pacman.conf /etc/
 
-sudo su
-cd 
-ln -sf /home/$user/.vim .vim
+sudo su -
+echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf
+ln -sf /home/$user/.vim .vim/
 ln -sf /home/$user/.tmux.conf .tmux.conf
 
 reboot
