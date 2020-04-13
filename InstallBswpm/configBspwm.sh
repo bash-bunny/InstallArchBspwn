@@ -71,6 +71,6 @@ sudo cp mirrorupgrade.hook /etc/pacman.d/hooks/
 sudo cp pacman.conf /etc/
 
 sudo su -
-echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf # Disable fucking beep sound
 ln -sf /home/$user/.vim .vim/
 ln -sf /home/$user/.tmux.conf .tmux.conf
+echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf # Disable fucking beep sound
