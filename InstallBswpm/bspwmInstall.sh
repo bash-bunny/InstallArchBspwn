@@ -374,7 +374,7 @@ sudo pacman -S --noconfirm --needed aircrack-ng
 sudo pacman -S --noconfirm --needed bettercap
 sudo pacman -S --noconfirm --needed inetutils
 sudo pacman -S --noconfirm --needed openssh
-sudo pacman -S --noconfirm --needed iputils traceroute whois
+sudo pacman -S --noconfirm --needed iputils traceroute whois dnsutils
 sudo pacman -S --noconfirm --needed impacket
 sudo pacman -S --noconfirm --needed hydra
 sudo pacman -S --noconfirm --needed john hashcat
