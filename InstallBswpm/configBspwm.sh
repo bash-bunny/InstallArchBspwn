@@ -54,10 +54,14 @@ chmod +x launch.sh
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
+sleep 1
+
 echo "Setting /etc & /usr config files"
 cd ~/InstallArch/InstallBswpm/
 sudo cp oblogout.conf /etc/
 sudo cp -r solarized-squares64/ /user/share/themes/
+
+sleep 1
 
 echo "Setting some configuration..."
 sudo updatedb # Update mlocate db
