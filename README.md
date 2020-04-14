@@ -15,4 +15,4 @@ Launch bspwmInstall, this will download all the necessary packages: ``` ./bspwmI
 
 Launch configBspwm, this will finish with the configuration files: ``` ./configBspwm.sh ```
 
-Or you can launch all at one time with (first install all the neccesary packages): ``` ./bspwmInstall.sh && ./configBspwm.sh ``` 
+Or you can launch all at one time with (first the installer all the neccesary packages): ``` ./bspwmInstall.sh && ./configBspwm.sh ``` 
