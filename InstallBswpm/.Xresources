@@ -148,9 +148,11 @@ URxvt*buffered:         false
 URxvt*keysym.Control-Shift-C: perl:clipboard:copy
 URxvt*keysym.Control-Shift-V: perl:clipboard:paste
 
-
-
-
+! Mapped Keys
+URxvt.keysym.M-Down:        \033[1;3B
+URxvt.keysym.M-Up:          \033[1;3A
+URxvt.keysym.M-Left:        \033[1;3D
+URxvt.keysym.M-Right:       \033[1;3C
 
 ! ------------------------------------------------------------------------------
 ! UXTerm standard arcolinux theme
