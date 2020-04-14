@@ -59,11 +59,7 @@ sleep 1
 echo 'Setting /etc and /usr config files'
 cd ~/InstallArch/InstallBswpm/
 sudo cp oblogout.conf /etc/
-if [ ! -d "/user/share/themes" ]
-then
-    sudo mkdir -p /user/share/themes
-fi
-sudo cp -r solarized-squares64/ /user/share/themes
+sudo cp -r solarized-squares64/ /usr/share/themes/
 
 sleep 1
 
