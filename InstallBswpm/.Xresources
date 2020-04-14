@@ -134,7 +134,7 @@ URxvt*keysym.M-s:       perl:keyboard-select:search
 URxvt*keysym.M-u:       perl:url-select:select_next
 URxvt*resize-font.smaller:	C-Down
 URxvt*resize-font.bigger:	C-Up
-URxvt*urlLauncher:      firefox
+URxvt*url-select.launcher:  /usr/bin/firefox
 URxvt*underlineURLs:    true
 URxvt*urlButton:        1
 URxvt*geometry: 		90x30
