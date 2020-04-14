@@ -70,4 +70,4 @@ sudo cp pacman.conf /etc/
 
 echo "Configuring root files..."
 user=$(whoami)
-sudo -- sh -c 'ln -sf /home/$user/.vim /root/.vim; ln -sf /home/$user/.tmux.conf /root/.tmux.conf; echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf'
+sudo -- sh -c 'echo $user; ln -sf /home/$user/.vim /root/.vim; ln -sf /home/$user/.tmux.conf /root/.tmux.conf; echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf'
