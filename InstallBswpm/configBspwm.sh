@@ -68,6 +68,9 @@ sudo localectl set-x11-keymap es # Set the keyboard map
 sudo cp mirrorupgrade.hook /etc/pacman.d/hooks/
 sudo cp pacman.conf /etc/
 
-echo "Configuring root files..."
-user=$(whoami)
-sudo -- sh -c 'echo $user; ln -sf /home/$user/.vim /root/.vim; ln -sf /home/$user/.tmux.conf /root/.tmux.conf; echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf'
+echo "Disabling beep sound"
+sudo -- sh -c 'echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf'
+
+echo "To configure root files execute:"
+echo "sudo -- sh -c 'ln -sf /home/user/.vim /root/.vim"
+echo "sudo -- sh -c 'ln -sf /home/user/.tmux.conf /root/.tmux.conf" 
