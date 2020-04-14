@@ -392,6 +392,7 @@ sudo pacman -S --noconfirm --needed metasploit
 yay -S --noconfirm --needed dirb gobuster-git wfuzz-git dirbuster
 yay -S --noconfirm --needed burpsuite
 yay -S --noconfirm --needed exploit-db-git
+yay -S --noconfirm --needed crunch
 
 echo ""
 
