@@ -246,11 +246,16 @@ echo ""
 
 echo "Installing yay"
 
-cd ~
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si --noconfirm
-cd ~/InstallArch/InstallBswpm
+if [[ ! command -v yay ]]
+then
+        cd ~
+        git clone https://aur.archlinux.org/yay.git
+        cd yay
+        makepkg -si --noconfirm
+        cd ~/InstallArch/InstallBswpm
+ else
+        echo "Yay installed, skipping..."
+ fi
 
 echo "Installing category Accessories"
 
