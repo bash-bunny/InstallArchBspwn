@@ -246,7 +246,7 @@ echo ""
 
 echo "Installing yay"
 
-if [[ ! command -v yay ]]
+if [ ! command -v yay ]
 then
         cd ~
         git clone https://aur.archlinux.org/yay.git
