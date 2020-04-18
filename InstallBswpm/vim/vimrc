@@ -40,7 +40,7 @@ set directory=$HOME/.vim/swp	" Directory for swp files
 set undodir=$HOME/.vim/undodir      " Set directories for undo files
 
 " History
-set history=50
+set history=1000
 
 " Display
 set ls=2
@@ -56,6 +56,9 @@ set relativenumber
 augroup toggle_relative_number  
 autocmd InsertEnter * :setlocal norelativenumber
 autocmd InsertLeave * :setlocal relativenumber
+
+" Maintain undo history between sessions
+set undofile
 
 " Line wrapping
 set nowrap
