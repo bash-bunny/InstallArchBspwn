@@ -25,7 +25,6 @@ fi
 echo "Copying Files to HOME ..."
 
 cp .bashrc ~/.
-cp .conkyrc ~/.
 cp .tmux.conf ~/.
 cp vim/vimrc ~/.vim
 cp .Xresources ~/.
@@ -72,6 +71,7 @@ sudo localectl set-x11-keymap es # Set the keyboard map
 # Config pacman
 sudo cp mirrorupgrade.hook /etc/pacman.d/hooks/
 sudo cp pacman.conf /etc/
+# Config lightdm
 sudo cp lightdm-gtk-greeter.conf /etc/lightdm/
 
 echo "Disabling beep sound"
