@@ -28,7 +28,6 @@ feh --bg-fill /usr/share/backgrounds/journey_in_middle_earth.png &
 xsetroot -cursor_name left_ptr &
 run sxhkd -c ~/.config/bspwm/sxhkd/sxhkdrc &
 
-conky -c $HOME/.config/bspwm/round-conky &
 run variety &
 run nm-applet &
 run pamac-tray &
