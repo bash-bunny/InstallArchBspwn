@@ -72,12 +72,13 @@ sudo localectl set-x11-keymap es # Set the keyboard map
 # Config pacman
 sudo cp mirrorupgrade.hook /etc/pacman.d/hooks/
 sudo cp pacman.conf /etc/
+sudo cp lightdm-gtk-greeter.conf /etc/lightdm/
 
 echo "Disabling beep sound"
 sudo -- sh -c 'echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf'
 
 echo "To configure root files execute:"
-echo "sudo -- sh -c 'ln -sf /home/user/.vim /root/.vim"
-echo "sudo -- sh -c 'ln -sf /home/user/.tmux.conf /root/.tmux.conf" 
+echo "sudo -- sh -c 'ln -sf /home/user/.vim /root/.vim'"
+echo "sudo -- sh -c 'ln -sf /home/user/.tmux.conf /root/.tmux.conf'" 
 
-echo "Reboot, open vim and execute PluginInstall"
+echo "Reboot, open vim and execute :PluginInstall"
