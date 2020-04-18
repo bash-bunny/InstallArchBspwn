@@ -108,7 +108,8 @@ module-margin-right = 3
 
 ;https://github.com/jaagr/polybar/wiki/Fonts
 font-0 = "Bitstream Vera Sans:style=Roman:size=10;2"
-font-1 = "FontAwesome:size=11;3"
+;font-1 = "FontAwesome:size=11;3"
+font-1 = "Hack Nerd Font Mono:size=15;2"
 font-2 = "Noto Sans Mono:size=15;4"
 font-3 = "Bitstream Vera Sans:style=Roman:size=15;4"
 
