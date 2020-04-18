@@ -259,7 +259,6 @@ then
 
 echo "Installing category Accessories"
 
-yay -S --noconfirm conky-lua-archers
 yay -S --noconfirm python2-pyparted
 
 echo "Installing category Multimedia"
