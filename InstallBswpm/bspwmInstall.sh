@@ -281,7 +281,7 @@ yay -S --noconfirm ttf-font-awesome
 yay -S --noconfirm ttf-mac-fonts
 yay -S --noconfirm nerd-fonts-hack 
 yay -S --noconfirm vivaldi
-#yay -S --noconfirm oblogout
+yay -S --noconfirm oblogout
 
 # these come always last
 
