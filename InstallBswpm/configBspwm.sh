@@ -45,7 +45,7 @@ then
     sudo mkdir -p /usr/share/backgrounds
 fi
 
-sudo -- sh -c 'cp backgrounds/* /usr/share/backgrounds/'
+sudo -- sh -c 'cp -r backgrounds/* /usr/share/backgrounds/'
 
 echo "Setting permissions..."
 
