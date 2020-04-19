@@ -53,6 +53,8 @@ cd ~/.config/bspwm/
 chmod +x bspwmrc autostart.sh
 cd ~/.config/polybar
 chmod +x launch.sh
+cd ~/.config/polybar/scripts
+chmod +x get_ip.sh vpn_status.sh
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
