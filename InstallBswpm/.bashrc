@@ -148,7 +148,7 @@ alias rip="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -200 | nl"
 alias riplong="expac --timefmt='%Y-%m-%d %T' '%l\t%n %v' | sort | tail -3000 | nl"
 
 #Cleanup orphaned packages
-alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
+alias cleanup='sudo pacman -Rs $(pacman -Qtdq)'
 
 #get the error messages from journalctl
 alias jctl="journalctl -p 3 -xb"
