@@ -400,6 +400,7 @@ yay -S --noconfirm --needed exploit-db-git
 yay -S --noconfirm --needed crunch
 yay -S --noconfirm --needed netdiscover
 yay -S --noconfirm --needed dirsearch-git
+yay -S --noconfirm --needed hash-identifier
 
 echo ""
 
