@@ -380,7 +380,7 @@ super + y
 
 #Compton Toggle
 ctrl + alt + o
-    ~/.config/bspwm/scripts/compton-toggle.sh
+    ~/.config/bspwm/scripts/picom-toggle.sh
 
 #################################################################
 # SUPER + KEYS
