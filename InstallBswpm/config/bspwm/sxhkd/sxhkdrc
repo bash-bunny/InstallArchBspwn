@@ -150,7 +150,11 @@ super + shift + s
 
 #Nmtui
 super + shift + w
-	exec termine -e nmtui
+	exec urxvt -e nmtui
+	
+#Burpsuite
+super + shift + b
+	pkexec burpsuite
 
 #################################################################
 # CONTROL + ALT KEYS
