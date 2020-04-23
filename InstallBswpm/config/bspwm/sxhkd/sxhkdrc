@@ -154,7 +154,7 @@ super + shift + w
 	
 #Burpsuite
 super + shift + b
-	pkexec burpsuite
+	gksudo burpsuite
 
 #################################################################
 # CONTROL + ALT KEYS
