@@ -389,6 +389,7 @@ sudo pacman -S --noconfirm --needed hping
 sudo pacman -S --noconfirm --needed ngrep
 sudo pacman -S --noconfirm --needed metasploit
 sudo pacman -S --noconfirm --needed masscan
+sudo pacman -S --noconfirm --needed zaproxy
 
 # AUR Repo
 yay -S --noconfirm --needed dirb gobuster-git wfuzz-git dirbuster
