@@ -282,6 +282,7 @@ yay -S --noconfirm --needed ttf-mac-fonts
 yay -S --noconfirm --needed nerd-fonts-hack 
 yay -S --noconfirm --needed vivaldi
 yay -S --noconfirm --needed oblogout
+yay -S --noconfirm --needed gksu
 
 # these come always last
 
