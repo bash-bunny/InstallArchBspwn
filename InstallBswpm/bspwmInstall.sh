@@ -259,32 +259,32 @@ then
 
 echo "Installing category Accessories"
 
-yay -S --noconfirm python2-pyparted
+yay -S --noconfirm --needed python2-pyparted
 
 echo "Installing category Multimedia"
 
-yay -S --noconfirm gradio
+yay -S --noconfirm --needed gradio
 
 echo "Installing category System"
 
-yay -S --noconfirm downgrade
-yay -S --noconfirm font-manager-git
-yay -S --noconfirm inxi
-yay -S --noconfirm oxy-neon
-yay -S --noconfirm pamac-aur
-yay -S --noconfirm sardi-icons
-yay -S --noconfirm sardi-orb-colora-variations-icons-git
-yay -S --noconfirm surfn-icons-git
-yay -S --noconfirm the_platinum_searcher-bin
-yay -S --noconfirm ttf-font-awesome
-yay -S --noconfirm ttf-mac-fonts
-yay -S --noconfirm nerd-fonts-hack 
-yay -S --noconfirm vivaldi
-yay -S --noconfirm oblogout
+yay -S --noconfirm --needed downgrade
+yay -S --noconfirm --needed font-manager-git
+yay -S --noconfirm --needed inxi
+yay -S --noconfirm --needed oxy-neon
+yay -S --noconfirm --needed pamac-aur
+yay -S --noconfirm --needed sardi-icons
+yay -S --noconfirm --needed sardi-orb-colora-variations-icons-git
+yay -S --noconfirm --needed surfn-icons-git
+yay -S --noconfirm --needed the_platinum_searcher-bin
+yay -S --noconfirm --needed ttf-font-awesome
+yay -S --noconfirm --needed ttf-mac-fonts
+yay -S --noconfirm --needed nerd-fonts-hack 
+yay -S --noconfirm --needed vivaldi
+yay -S --noconfirm --needed oblogout
 
 # these come always last
 
-yay -S --noconfirm hardcode-fixer-git
+yay -S --noconfirm --needed hardcode-fixer-git
 sudo hardcode-fixer
 
 echo "" 
@@ -330,16 +330,11 @@ echo ""
 
 echo "AUR - DESKTOP SPECIFIC APPLICATIONS "
 
-yay -S --noconfirm gtk2-perl
-
-yay -S --noconfirm perl-linux-desktopfiles
-
-yay -S --noconfirm xtitle
-
-yay -S --noconfirm polybar
-
-yay -S --noconfirm urxvt-resize-font-git
-
+yay -S --noconfirm --needed gtk2-perl
+yay -S --noconfirm --needed perl-linux-desktopfiles
+yay -S --noconfirm --needed xtitle
+yay -S --noconfirm --needed polybar
+yay -S --noconfirm --needed urxvt-resize-font-git
 yay -S --noconfirm --needed betterlockscreen
 
 echo ""
