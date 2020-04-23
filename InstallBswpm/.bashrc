@@ -47,6 +47,9 @@ alias mv='mv -v'
 alias cp='cp -v'
 alias rm='rm -v'
 
+# netcat nmap
+alias ncat='nc'
+
 #readable output
 alias df='df -h'
 
