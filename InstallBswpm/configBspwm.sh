@@ -67,6 +67,15 @@ sudo cp -r solarized-squares64/ /usr/share/themes/
 
 sleep 1
 
+echo "Installing go tools"
+go get -u github.com/tomnomnom/assetfinder
+go get -u github.com/tomnomnom/httprobe
+go get github.com/tomnomnom/waybackurls
+go get github.com/ffuf/ffuf
+go get -u github.com/lc/gau
+
+sleep 1
+
 echo "Setting some configuration..."
 sudo updatedb # Update mlocate db
 sudo localectl set-x11-keymap es # Set the keyboard map
