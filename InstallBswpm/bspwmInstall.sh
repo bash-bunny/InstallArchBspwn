@@ -232,6 +232,7 @@ sudo pacman -S --noconfirm --needed rofi
 sudo pacman -S --noconfirm --needed reflector
 sudo pacman -S --noconfirm --needed mlocate
 sudo pacman -S --noconfirm --needed dnsutils
+sudo pacman -S --noconfirm --needed xorg-xbacklight
 
 ###############################################################################################
 
