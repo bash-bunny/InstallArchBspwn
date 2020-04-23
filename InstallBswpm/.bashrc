@@ -24,6 +24,10 @@ if [ -d "$HOME/.local/bin" ] ;
   then PATH="$HOME/.local/bin:$PATH"
 fi
 
+# For go
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
+
 #list
 alias ls='ls --color=auto'
 alias la='ls -a'
