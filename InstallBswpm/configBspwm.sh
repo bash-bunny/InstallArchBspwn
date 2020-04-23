@@ -79,6 +79,9 @@ sudo cp lightdm-gtk-greeter.conf /etc/lightdm/
 echo "Disabling beep sound"
 sudo -- sh -c 'echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf'
 
+echo "Configuring Nice Burpsuite"
+sudo -- sh -c 'echo "_JAVA_AWT_WM_NONREPARENTING=1" > /etc/environment'
+
 echo "To configure root files execute:"
 echo "sudo -- sh -c 'ln -sf /home/user/.vim /root/.vim'"
 echo "sudo -- sh -c 'ln -sf /home/user/.tmux.conf /root/.tmux.conf'" 
