@@ -51,9 +51,6 @@ alias mv='mv -v'
 alias cp='cp -v'
 alias rm='rm -v'
 
-# netcat nmap
-alias ncat='nc'
-
 #readable output
 alias df='df -h'
 
@@ -190,6 +187,10 @@ ex ()
     echo "'$1' is not a valid file"
   fi
 }
+
+# Personal Configuration
+alias ncat='nc'
+alias nmap='grc nmap'
 
 #create a file called .bashrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.
