@@ -407,6 +407,7 @@ yay -S --noconfirm --needed enum4linux
 yay -S --noconfirm --needed crackmapexec
 yay -S --noconfirm --needed wafw00f-git
 yay -S --noconfirm --needed cutycapt-qt5-git
+yay -S --noconfirm --needed cupp-v3
 
 echo ""
 
