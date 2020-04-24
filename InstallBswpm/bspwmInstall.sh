@@ -378,7 +378,7 @@ sudo pacman -S --noconfirm --needed inetutils
 sudo pacman -S --noconfirm --needed openssh
 sudo pacman -S --noconfirm --needed iputils traceroute whois dnsutils
 sudo pacman -S --noconfirm --needed impacket
-sudo pacman -S --noconfirm --needed hydra
+sudo pacman -S --noconfirm --needed hydra medusa
 sudo pacman -S --noconfirm --needed john hashcat
 sudo pacman -S --noconfirm --needed nikto
 sudo pacman -S --noconfirm --needed sqlmap
