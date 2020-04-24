@@ -405,6 +405,7 @@ yay -S --noconfirm --needed hash-identifier
 yay -S --noconfirm --needed dnsenum
 yay -S --noconfirm --needed enum4linux
 yay -S --noconfirm --needed crackmapexec
+yay -S --noconfirm --needed wafw00f-git
 
 echo ""
 
