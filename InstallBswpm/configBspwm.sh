@@ -67,23 +67,37 @@ sudo cp -r solarized-squares64/ /usr/share/themes/
 
 sleep 1
 
-echo "Installing go tools"
-go get -u github.com/tomnomnom/assetfinder
-go get -u github.com/tomnomnom/httprobe
-go get github.com/tomnomnom/waybackurls
-go get github.com/ffuf/ffuf
-go get -u github.com/lc/gau
+#echo "Installing go tools"
+#go get -u github.com/tomnomnom/assetfinder
+#go get -u github.com/tomnomnom/httprobe
+#go get github.com/tomnomnom/waybackurls
+#go get github.com/ffuf/ffuf
+#go get -u github.com/lc/gau
 
 sleep 1
 
 echo "Setting some configuration..."
 sudo updatedb # Update mlocate db
 sudo localectl set-x11-keymap es # Set the keyboard map
+# Config lightdm
+sudo cp lightdm-gtk-greeter.conf /etc/lightdm/
 # Config pacman
 sudo cp mirrorupgrade.hook /etc/pacman.d/hooks/
 sudo cp pacman.conf /etc/
-# Config lightdm
-sudo cp lightdm-gtk-greeter.conf /etc/lightdm/
+# Config ArchStrike
+# https://archstrike.org/wiki/setup
+sudo pacman -Syy
+
+sudo pacman-key --init
+sudo dirmngr < /dev/null
+sudo pacman-key -r 9D5F1C051D146843CDA4858BDE64825E7CBC0D51
+sudo pacman-key --lsign-key 9D5F1C051D146843CDA4858BDE64825E7CBC0D51
+
+sudo pacman -S archstrike-keyring
+sudo pacman -S archstrike-mirrorlist
+
+sudo sed -i 's/.*mirror.archstrike.*/Include = \/etc\/pacman.d\/archstrike-mirrorlist/' /etc/pacman.conf
+sudo pacman -Syy
 
 echo "Disabling beep sound"
 sudo -- sh -c 'echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf'
