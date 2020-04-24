@@ -391,6 +391,8 @@ sudo pacman -S --noconfirm --needed ngrep
 sudo pacman -S --noconfirm --needed metasploit
 sudo pacman -S --noconfirm --needed masscan
 sudo pacman -S --noconfirm --needed zaproxy
+sudo pacman -S --noconfirm --needed smbclien
+sudo pacman -S --noconfirm --needed kxmlrpcclient
 
 # AUR Repo
 yay -S --noconfirm --needed dirb gobuster-git wfuzz-git dirbuster
@@ -400,6 +402,9 @@ yay -S --noconfirm --needed crunch
 yay -S --noconfirm --needed netdiscover
 yay -S --noconfirm --needed dirsearch-git
 yay -S --noconfirm --needed hash-identifier
+yay -S --noconfirm --needed dnsenum
+yay -S --noconfirm --needed enum4linux
+yay -S --noconfirm --needed crackmapexec
 
 echo ""
 
