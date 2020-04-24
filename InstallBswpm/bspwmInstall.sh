@@ -391,7 +391,7 @@ sudo pacman -S --noconfirm --needed ngrep
 sudo pacman -S --noconfirm --needed metasploit
 sudo pacman -S --noconfirm --needed masscan
 sudo pacman -S --noconfirm --needed zaproxy
-sudo pacman -S --noconfirm --needed smbclien
+sudo pacman -S --noconfirm --needed smbclient
 sudo pacman -S --noconfirm --needed kxmlrpcclient
 
 # AUR Repo
