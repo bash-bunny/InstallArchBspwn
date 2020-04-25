@@ -394,21 +394,11 @@ sudo pacman -S --noconfirm --needed zaproxy
 sudo pacman -S --noconfirm --needed smbclient
 sudo pacman -S --noconfirm --needed kxmlrpcclient
 sudo pacman -S --noconfirm --needed radare2
+sudo pacman -S --noconfirm --needed parallel
 
 # AUR Repo
-#yay -S --noconfirm --needed dirb gobuster-git wfuzz-git dirbuster
-#yay -S --noconfirm --needed burpsuite
 yay -S --noconfirm --needed exploit-db-git
-#yay -S --noconfirm --needed crunch
-#yay -S --noconfirm --needed netdiscover
-#yay -S --noconfirm --needed dirsearch-git
-#yay -S --noconfirm --needed hash-identifier
-#yay -S --noconfirm --needed dnsenum
-#yay -S --noconfirm --needed enum4linux
-#yay -S --noconfirm --needed crackmapexec
-#yay -S --noconfirm --needed wafw00f-git
 yay -S --noconfirm --needed cutycapt-qt5-git
-#yay -S --noconfirm --needed cupp-v3
 
 echo ""
 
