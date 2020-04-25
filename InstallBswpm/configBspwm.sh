@@ -67,15 +67,6 @@ sudo cp -r solarized-squares64/ /usr/share/themes/
 
 sleep 1
 
-#echo "Installing go tools"
-#go get -u github.com/tomnomnom/assetfinder
-#go get -u github.com/tomnomnom/httprobe
-#go get github.com/tomnomnom/waybackurls
-#go get github.com/ffuf/ffuf
-#go get -u github.com/lc/gau
-
-sleep 1
-
 echo "Setting some configuration..."
 sudo updatedb # Update mlocate db
 sudo localectl set-x11-keymap es # Set the keyboard map
@@ -98,6 +89,29 @@ sudo pacman -S archstrike-mirrorlist
 
 sudo sed -i 's/.*mirror.archstrike.*/Include = \/etc\/pacman.d\/archstrike-mirrorlist/' /etc/pacman.conf
 sudo pacman -Syy
+
+sleep 1
+
+echo "Installing tools with archstrike"
+pacman -S --noconfirm --needed dirb gobuster wfuzz dirbuster
+pacman -S --noconfirm --needed burpsuite
+pacman -S --noconfirm --needed crunch cupp-git cewl
+pacman -S --noconfirm --needed netdiscover
+pacman -S --noconfirm --needed dirsearch
+pacman -S --noconfirm --needed hash-identifier
+pacman -S --noconfirm --needed dnsenum sublist3r-git
+pacman -S --noconfirm --needed enum4linux
+pacman -S --noconfirm --needed crackmapexec
+pacman -S --noconfirm --needed wafw00f
+
+sleep 1
+
+echo "Installing go tools"
+go get -u github.com/tomnomnom/assetfinder
+go get -u github.com/tomnomnom/httprobe
+go get -u github.com/tomnomnom/waybackurls
+go get -u github.com/ffuf/ffuf
+go get -u github.com/lc/gau
 
 echo "Disabling beep sound"
 sudo -- sh -c 'echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf'
