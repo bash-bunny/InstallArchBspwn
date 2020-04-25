@@ -393,6 +393,7 @@ sudo pacman -S --noconfirm --needed masscan
 sudo pacman -S --noconfirm --needed zaproxy
 sudo pacman -S --noconfirm --needed smbclient
 sudo pacman -S --noconfirm --needed kxmlrpcclient
+sudo pacman -S --noconfirm --needed radare2
 
 # AUR Repo
 #yay -S --noconfirm --needed dirb gobuster-git wfuzz-git dirbuster
