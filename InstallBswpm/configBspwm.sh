@@ -93,16 +93,16 @@ sudo pacman -Syy
 sleep 1
 
 echo "Installing tools with archstrike"
-pacman -S --noconfirm --needed dirb gobuster wfuzz dirbuster
-pacman -S --noconfirm --needed burpsuite
-pacman -S --noconfirm --needed crunch cupp-git cewl
-pacman -S --noconfirm --needed netdiscover
-pacman -S --noconfirm --needed dirsearch
-pacman -S --noconfirm --needed hash-identifier
-pacman -S --noconfirm --needed dnsenum sublist3r-git
-pacman -S --noconfirm --needed enum4linux
-pacman -S --noconfirm --needed crackmapexec
-pacman -S --noconfirm --needed wafw00f
+sudo pacman -S --noconfirm --needed dirb gobuster wfuzz dirbuster
+sudo pacman -S --noconfirm --needed burpsuite
+sudo pacman -S --noconfirm --needed crunch cupp-git cewl
+sudo pacman -S --noconfirm --needed netdiscover
+sudo pacman -S --noconfirm --needed dirsearch
+sudo pacman -S --noconfirm --needed hash-identifier
+sudo pacman -S --noconfirm --needed dnsenum sublist3r-git
+sudo pacman -S --noconfirm --needed enum4linux
+sudo pacman -S --noconfirm --needed crackmapexec
+sudo pacman -S --noconfirm --needed wafw00f
 
 sleep 1
 
