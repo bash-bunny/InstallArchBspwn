@@ -47,8 +47,8 @@ alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
 # mv cp rm verbose
-alias mv='mv -v'
-alias cp='cp -v'
+alias mv='mv -iv'
+alias cp='cp -iv'
 alias rm='rm -v'
 
 #readable output
