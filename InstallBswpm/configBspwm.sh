@@ -51,6 +51,7 @@ echo "Setting permissions..."
 
 cd ~/.config/bspwm/
 chmod +x bspwmrc autostart.sh
+chmod +x scripts/picom.sh
 cd ~/.config/polybar
 chmod +x launch.sh
 cd ~/.config/polybar/scripts
