@@ -78,7 +78,7 @@ sudo cp mirrorupgrade.hook /etc/pacman.d/hooks/
 sudo cp pacman.conf /etc/
 # Config ArchStrike
 # https://archstrike.org/wiki/setup
-sudo pacman -Syy
+sudo pacman -Syy --noconfirm --needed
 
 sudo pacman-key --init
 sudo dirmngr < /dev/null
@@ -91,7 +91,7 @@ sudo pacman -S archstrike-keyring
 sudo pacman -S archstrike-mirrorlist
 
 sudo sed -i 's/.*mirror.archstrike.*/Include = \/etc\/pacman.d\/archstrike-mirrorlist/' /etc/pacman.conf
-sudo pacman -Syy
+sudo pacman -Syy --noconfirm --needed
 
 sleep 1
 
