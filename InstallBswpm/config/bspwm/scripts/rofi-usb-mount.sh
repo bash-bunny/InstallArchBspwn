@@ -21,7 +21,7 @@ mountusb(){ \
 
 umountusb(){ \
     chosen=$(echo "$mounteddrives" | rofi -dmenu -show run -lines 5 -opacity "85" -bw 0 -width 30 -padding 20 -i -p "Unmount which drive?" | awk '{print $1}')
-    mountpoint=$(udisksctl unmount --no-user-interaction -b "$chosen" 2>/dev/null) && notify-send "💻 USB unmounting" "$chosen mounted" && exit 0
+    mountpoint=$(udisksctl unmount --no-user-interaction -b "$chosen" 2>/dev/null) && notify-send "💻 USB unmounting" "$chosen umounted" && exit 0
     udisksctl power-off --no-user-interaction -b "$chosen"
 }
 
