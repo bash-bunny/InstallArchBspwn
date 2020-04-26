@@ -189,7 +189,7 @@ ex ()
 }
 
 # Personal Configuration
-alias ncat='nc'
+alias nc='ncat'
 alias nmap='grc nmap'
 
 #create a file called .bashrc-personal and put all your personal aliases
