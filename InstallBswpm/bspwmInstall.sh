@@ -103,7 +103,7 @@ echo ""
 echo "Setting Network Discovery"
 
 sudo pacman -S --noconfirm --needed wget curl
-
+sudo pacman -S --noconfirm --needed network-manager-applet
 sudo pacman -S --noconfirm --needed avahi
 sudo systemctl enable avahi-daemon.service
 sudo systemctl start avahi-daemon.service
