@@ -36,11 +36,11 @@ super + F8
 
 #Evolution
 super + F9
-    ~/.config/bspwm/rofi-usb-mount.sh --check
+    ~/.config/bspwm/scripts/rofi-usb-mount.sh --mount
 
 #Spotify
 super + F10
-    ~/.config/bspwm/rofi-usb-mount.sh --umount
+    ~/.config/bspwm/scripts/rofi-usb-mount.sh --umount
 
 #Rofi Fullscreen
 super + F11
@@ -392,16 +392,18 @@ alt + shift + Tab
 
 #################################################################
 #################################################################
-##################   QWERTY KEYBOARD#################
+##################   AZERTY/QWERTY/ ... KEYBOARD#################
 #################################################################
 #################################################################
 
+#Switch here between qwerty and azerty or make new one
 #Focus selected desktop FOR QWERTY KEYBOARDS
 super + {1-9,0}
 	bspc desktop -f '^{1-9,10}'
 
 #################################################################
 
+#Switch here between qwerty and azerty or make new one
 #Move window to selected desktop FOR QWERTY KEYBOARDS
 super + shift + {1-9,0}
     id=$(bspc query -N -n); bspc node -d ^{1-9,10}; bspc node -f ${id}}
