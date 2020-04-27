@@ -180,7 +180,6 @@ echo "Installing category System"
 
 sudo pacman -S --noconfirm --needed accountsservice
 sudo pacman -S --noconfirm --needed bleachbit
-sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed glances
 sudo pacman -S --noconfirm --needed gnome-disk-utility
@@ -216,7 +215,6 @@ sudo pacman -S --noconfirm --needed tumbler
 sudo pacman -S --noconfirm --needed vnstat
 sudo pacman -S --needed --noconfirm virtualbox-host-modules-arch
 sudo pacman -S --needed --noconfirm virtualbox
-sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed wmctrl
 sudo pacman -S --noconfirm --needed unclutter
 sudo pacman -S --noconfirm --needed rxvt-unicode
