@@ -40,12 +40,12 @@ cp -r config/variety ~/.config/
 
 echo "Copying wallpapers"
 
-if [ ! -d "/usr/share/backgrounds" ]
+if [ ! -d "~/backgrounds" ]
 then
-    sudo mkdir -p /usr/share/backgrounds
+    sudo mkdir -p ~/backgrounds
 fi
 
-sudo -- sh -c 'cp -r backgrounds/* /usr/share/backgrounds/'
+cp -r backgrounds/* ~/backgrounds/
 
 echo "Setting permissions..."
 
