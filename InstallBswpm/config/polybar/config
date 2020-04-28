@@ -113,18 +113,18 @@ font-1 = "Hack Nerd Font Mono:size=15;2"
 font-2 = "Noto Sans Mono:size=15;4"
 font-3 = "Bitstream Vera Sans:style=Roman:size=15;4"
 
-modules-left = cpu-graph volume memory1 vpnstatus
+modules-left = cpu-graph volume memory1 wlan vpnstatus
 modules-center = bspwm 
-modules-right =  ethernet filesystem battery date 
+modules-right =  ethernet filesystem wifistatus battery date 
 
-tray-detached = false
-tray-offset-x = 0
-tray-offset-y = 0
-tray-padding = 2
-tray-maxsize = 20
-tray-scale = 1.0
-tray-position = right
-tray-background = ${colors.background}
+;tray-detached = false
+;tray-offset-x = 0
+;tray-offset-y = 0
+;tray-padding = 2
+;tray-maxsize = 20
+;tray-scale = 1.0
+;tray-position = right
+;tray-background = ${colors.background}
 
 scroll-up = bspwm-desknext
 scroll-down = bspwm-deskprev
@@ -927,3 +927,13 @@ format-background = ${colors.background}
 format-foreground = ${colors.foreground}
 format-underline = ${colors.foreground-alt}
 format-padding = 1
+
+[module/wifistatus]
+type = custom/script
+interval = 5
+exec = ~/.config/polybar/scripts/connected.sh
+format-background = ${colors.background}
+format-foreground = ${colors.foreground}
+format-underline = ${colors.foreground-alt}
+format-padding = 1
+click-left = nm-connection-editor
