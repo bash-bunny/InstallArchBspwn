@@ -1,9 +1,3 @@
-! ------------------------------------------------------------------------------
-! xterm standard arcolinux theme
-! ------------------------------------------------------------------------------
-! https://critical.ch/xterm/
-! ------------------------------------------------------------------------------
-
 xterm*font: 7x13
 xterm*faceName: Monospace:size=12:antialias=false
 xterm*loginShell: true
@@ -52,9 +46,10 @@ URxvt*metaSendsEscape:  true
 URxvt*iconFile:  		/usr/share/icons/Sardi-Mono/scalable/apps/terminal.svg
 
 ! appearance
-URxvt*depth:             32
+!urxvt*depth: 32
+!urxvt*background: rgba:0000/0000/0200/c800
 !URxvt*transparent:      true
-URxvt*shading:          30
+!URxvt*shading:          85
 !URxvt*background:       rgba:0000/0000/0200/c800
 !URxvt*background:       [80]#404552
 !URxvt*background:       [70]#3F424A
