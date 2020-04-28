@@ -111,6 +111,7 @@ sudo pacman -S --noconfirm --needed wafw00f
 sleep 1
 
 echo "Installing go tools"
+go get -u github.com/projectdiscovery/subfinder/cmd/subfinder
 go get -u github.com/tomnomnom/assetfinder
 go get -u github.com/tomnomnom/httprobe
 go get -u github.com/tomnomnom/waybackurls
