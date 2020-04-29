@@ -52,7 +52,7 @@ fi
 
 cp -r backgrounds/* ~/backgrounds/
 
-sudo cp -r backgrounds/icons/* backgrounds/background.png /usr/share/backgrounds/
+sudo cp -r backgrounds/icons/ backgrounds/background.png /usr/share/backgrounds/
 
 echo "Setting permissions..."
 
