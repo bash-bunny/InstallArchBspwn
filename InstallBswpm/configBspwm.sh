@@ -47,7 +47,7 @@ fi
 
 if [ ! -d "/usr/share/backgrounds" ]
 then
-    mkdir -p /usr/share/backgrounds
+    sudo mkdir -p /usr/share/backgrounds
 fi
 
 cp -r backgrounds/* ~/backgrounds/
