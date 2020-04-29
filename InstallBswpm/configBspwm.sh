@@ -42,7 +42,7 @@ echo "Copying wallpapers"
 
 if [ ! -d "~/backgrounds" ]
 then
-    sudo mkdir -p ~/backgrounds
+    mkdir -p ~/backgrounds
 fi
 
 cp -r backgrounds/* ~/backgrounds/
