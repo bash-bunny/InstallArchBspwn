@@ -88,8 +88,8 @@ sudo pacman-key --add keyfile.asc
 sudo pacman-key --lsign-key 9D5F1C051D146843CDA4858BDE64825E7CBC0D51
 sudo rm keyfile.asc
 
-sudo pacman -S archstrike-keyring
-sudo pacman -S archstrike-mirrorlist
+sudo pacman -S --noconfirm archstrike-keyring
+sudo pacman -S --noconfirm archstrike-mirrorlist
 
 sudo sed -i 's/.*mirror.archstrike.*/Include = \/etc\/pacman.d\/archstrike-mirrorlist/' /etc/pacman.conf
 sudo pacman -Syy --noconfirm --needed
