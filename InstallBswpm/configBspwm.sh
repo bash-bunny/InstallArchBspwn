@@ -45,7 +45,14 @@ then
     mkdir -p ~/backgrounds
 fi
 
+if [ ! -d "/usr/share/backgrounds" ]
+then
+    mkdir -p /usr/share/backgrounds
+fi
+
 cp -r backgrounds/* ~/backgrounds/
+
+sudo cp -r backgrounds/icons/* backgrounds/background.png /usr/share/backgrounds/
 
 echo "Setting permissions..."
 
