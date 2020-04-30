@@ -1,10 +1,10 @@
 #!/usr/bin/sh
 
-wifi=$(ip link show | grep -i "wl" | grep 'state UP')
+wifi=$(nmcli | grep -i connected | cut -d ' ' -f4-)
 
 if [ ! -z "$wifi" ]
 then
-    echo "%{F#cc0433} %{F#e2ee6a}"
+    echo "%{F#cc0433} $wifi%{F#e2ee6a}"
 else
     echo "%{F#07dbcd} %{F#e2ee6a}"
 fi
