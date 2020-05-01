@@ -393,6 +393,7 @@ sudo pacman -S --noconfirm --needed kxmlrpcclient
 sudo pacman -S --noconfirm --needed radare2
 sudo pacman -S --noconfirm --needed parallel
 sudo pacman -S --noconfirm --needed mysql
+sudo pacman -S --noconfirm --needed wpscan
 
 # AUR Repo
 yay -S --noconfirm --needed exploit-db-git
