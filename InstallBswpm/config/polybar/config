@@ -574,8 +574,8 @@ format-background = ${colors.background}
 type = internal/fs
 
 ; Mountpoints to display
-mount-0 = /
-;mount-1 = /home
+mount-0 = /home
+;mount-1 = /
 ;mount-2 = /var
 
 ; Seconds to sleep between updates
