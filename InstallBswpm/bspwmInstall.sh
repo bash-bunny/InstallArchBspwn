@@ -149,6 +149,7 @@ echo "Installing category Development"
 
 sudo pacman -S --noconfirm --needed vim
 sudo pacman -S --noconfirm --needed python python2
+sudo pacman -S --noconfirm --needed python-pip python2-pip
 
 echo "Installing category Graphics"
 
