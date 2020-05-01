@@ -392,7 +392,7 @@ sudo pacman -S --noconfirm --needed smbclient
 sudo pacman -S --noconfirm --needed kxmlrpcclient
 sudo pacman -S --noconfirm --needed radare2
 sudo pacman -S --noconfirm --needed parallel
-sudo pacman -S --noconfirm --needed mysql mariadb
+sudo pacman -S --noconfirm --needed mysql
 
 # AUR Repo
 yay -S --noconfirm --needed exploit-db-git
