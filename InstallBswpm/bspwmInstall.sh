@@ -397,7 +397,7 @@ sudo pacman -S --noconfirm --needed mysql
 sudo pacman -S --noconfirm --needed wpscan
 sudo pacman -S --noconfirm --needed reaver bully
 sudo pacman -S --noconfirm --needed macchanger
-sudo pacman -S --noconfirm --needed hcxdumptool
+sudo pacman -S --noconfirm --needed hcxdumptool hcxtools
 
 # AUR Repo
 yay -S --noconfirm --needed exploit-db-git
