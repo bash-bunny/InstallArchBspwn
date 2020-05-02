@@ -395,6 +395,7 @@ sudo pacman -S --noconfirm --needed parallel
 sudo pacman -S --noconfirm --needed mysql
 sudo pacman -S --noconfirm --needed wpscan
 sudo pacman -S --noconfirm --needed reaver bully
+sudo pacman -S --noconfirm --needed macchanger
 
 # AUR Repo
 yay -S --noconfirm --needed exploit-db-git
