@@ -393,9 +393,11 @@ sudo pacman -S --noconfirm --needed kxmlrpcclient
 sudo pacman -S --noconfirm --needed radare2
 sudo pacman -S --noconfirm --needed parallel
 sudo pacman -S --noconfirm --needed mysql
+# For Wifi
 sudo pacman -S --noconfirm --needed wpscan
 sudo pacman -S --noconfirm --needed reaver bully
 sudo pacman -S --noconfirm --needed macchanger
+sudo pacman -S --noconfirm --needed hcxdumptool
 
 # AUR Repo
 yay -S --noconfirm --needed exploit-db-git
