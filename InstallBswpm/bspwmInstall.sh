@@ -394,6 +394,7 @@ sudo pacman -S --noconfirm --needed radare2
 sudo pacman -S --noconfirm --needed parallel
 sudo pacman -S --noconfirm --needed mysql
 sudo pacman -S --noconfirm --needed wpscan
+sudo pacman -S --noconfirm --needed reaver
 
 # AUR Repo
 yay -S --noconfirm --needed exploit-db-git
