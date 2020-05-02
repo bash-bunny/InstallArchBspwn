@@ -114,6 +114,8 @@ sudo pacman -S --noconfirm --needed enum4linux
 sudo pacman -S --noconfirm --needed crackmapexec
 sudo pacman -S --noconfirm --needed wafw00f
 sudo pacman -S --noconfirm --needed whatweb-git
+sudo pacman -S --noconfirm --needed recon-ng-git
+sudo pacman -S --noconfirm --needed shellter
 
 sleep 1
 
