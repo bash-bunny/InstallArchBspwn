@@ -118,6 +118,8 @@ sudo pacman -S --noconfirm --needed recon-ng-git
 sudo pacman -S --noconfirm --needed shellter
 sudo pacman -S --noconfirm --needed theharvester-git
 sudo pacman -S --noconfirm --needed metagoofil
+# For wifi
+sudo pacman -S --noconfirm --needed wifiphisher-git wifijammer-git
 
 sleep 1
 
