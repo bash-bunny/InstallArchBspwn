@@ -393,6 +393,7 @@ sudo pacman -S --noconfirm --needed kxmlrpcclient
 sudo pacman -S --noconfirm --needed radare2
 sudo pacman -S --noconfirm --needed parallel
 sudo pacman -S --noconfirm --needed mysql
+sudo pacman -S --noconfirm --needed perl-image-exiftool
 # For Wifi
 sudo pacman -S --noconfirm --needed wpscan
 sudo pacman -S --noconfirm --needed reaver bully
