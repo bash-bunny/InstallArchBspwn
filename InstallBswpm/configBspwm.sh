@@ -116,6 +116,7 @@ sudo pacman -S --noconfirm --needed wafw00f
 sudo pacman -S --noconfirm --needed whatweb-git
 sudo pacman -S --noconfirm --needed recon-ng-git
 sudo pacman -S --noconfirm --needed shellter
+sudo pacman -S --noconfirm --needed theharvester-git
 
 sleep 1
 
