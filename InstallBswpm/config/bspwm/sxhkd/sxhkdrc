@@ -406,6 +406,7 @@ super + {1-9,0}
 #Switch here between qwerty and azerty or make new one
 #Move window to selected desktop FOR QWERTY KEYBOARDS
 super + shift + {1-9,0}
-    id=$(bspc query -N -n); bspc node -d ^{1-9,10}; bspc node -f ${id}}
+    set id (bspc query -N -n); bspc node -d '^{1-9,10}'; bspc node -f ${id} # For fish
+    #id=$(bspc query -N -n); bspc node -d ^{1-9,10}; bspc node -f ${id}} # For bash
 
 #################################################################
