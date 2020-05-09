@@ -328,7 +328,7 @@ super + shift + r
 
 #kill
 super + shift + q
-	bspc node -c
+	bspc node -k
 
 #Logout
 super + shift + x
