@@ -34,13 +34,20 @@ function fish_prompt --description 'Write out the prompt'
         end
         set git_info "(git$git_status$git_branch"(set_color white)")"
     end
+    
+    # Prompt
+    if [ "$USER" = "root" ]
+        set prompt_color red
+    else
+        set prompt_color 19b296
+    end
 
     # Disable PWD shortening by default.
     set -q fish_prompt_pwd_dir_length
     or set -lx fish_prompt_pwd_dir_length 0
 
     #set_color -b black
-    printf '%s%s%s%s%s%s%s%s%s%s%s%s%s' (set_color -o white) '❰' (set_color 19b596) $USER (set_color white) '|' (set_color blue) (prompt_pwd) (set_color white) $git_info (set_color white) '❱' (set_color white)
+    printf '%s%s%s%s%s%s%s%s%s%s%s%s%s' (set_color -o white) '❰' (set_color prompt_color) $USER (set_color white) '|' (set_color blue) (prompt_pwd) (set_color white) $git_info (set_color white) '❱' (set_color white)
     if test $laststatus -eq 0
         printf "%s%s≻%s " (set_color -o green) (set_color white) (set_color normal)
     else
