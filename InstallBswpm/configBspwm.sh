@@ -104,7 +104,7 @@ sudo pacman -Syy --noconfirm --needed
 sleep 1
 
 echo "Installing tools with archstrike"
-sudo pacman -S --noconfirm --needed dirb gobuster wfuzz dirbuster
+sudo pacman -S --noconfirm --needed dirb wfuzz dirbuster
 sudo pacman -S --noconfirm --needed burpsuite
 sudo pacman -S --noconfirm --needed crunch cupp-git cewl
 sudo pacman -S --noconfirm --needed netdiscover
@@ -132,6 +132,7 @@ go get -u github.com/tomnomnom/waybackurls
 go get -u github.com/ffuf/ffuf
 go get -u github.com/lc/gau
 go get -u github.com/hakluke/hakrawler
+go get -u github.com/OJ/gobuster
 
 echo "Disabling beep sound"
 sudo -- sh -c 'echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf'
