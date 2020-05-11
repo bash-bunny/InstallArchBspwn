@@ -233,6 +233,7 @@ sudo pacman -S --noconfirm --needed mlocate
 sudo pacman -S --noconfirm --needed dnsutils
 sudo pacman -S --noconfirm --needed xorg-xbacklight
 sudo pacman -S --noconfirm --needed grc
+sudo pacman -S --noconfirm --needed xclip
 sudo pacman -S --noconfirm --needed fish # Fish shell
 
 ###############################################################################################
