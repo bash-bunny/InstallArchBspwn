@@ -214,8 +214,8 @@ sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 sudo pacman -S --noconfirm --needed ttf-droid
 sudo pacman -S --noconfirm --needed tumbler
 sudo pacman -S --noconfirm --needed vnstat
-sudo pacman -S --needed --noconfirm virtualbox-host-modules-arch
-sudo pacman -S --needed --noconfirm virtualbox
+sudo pacman -S --noconfirm --needed virtualbox-host-modules-arch
+sudo pacman -S --noconfirm --needed virtualbox
 sudo pacman -S --noconfirm --needed wmctrl
 sudo pacman -S --noconfirm --needed unclutter
 sudo pacman -S --noconfirm --needed rxvt-unicode
@@ -284,6 +284,7 @@ yay -S --noconfirm --needed nerd-fonts-hack
 yay -S --noconfirm --needed vivaldi
 yay -S --noconfirm --needed oblogout
 yay -S --noconfirm --needed gksu
+yay -S --noconfirm --needed cherrytree
 
 # these come always last
 
