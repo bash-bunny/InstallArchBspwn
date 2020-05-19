@@ -133,6 +133,7 @@ go get -u github.com/ffuf/ffuf
 go get -u github.com/lc/gau
 go get -u github.com/hakluke/hakrawler
 go get -u github.com/OJ/gobuster
+go get -u https://github.com/asciimoo/wuzz
 
 echo "Disabling beep sound"
 sudo -- sh -c 'echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf'
