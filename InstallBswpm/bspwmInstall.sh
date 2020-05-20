@@ -407,7 +407,6 @@ sudo pacman -S --noconfirm --needed hcxdumptool hcxtools
 # AUR Repo
 yay -S --noconfirm --needed exploit-db-git
 yay -S --noconfirm --needed cutycapt-qt5-git
-yay -S --noconfirm --needed winexe
 
 echo ""
 
