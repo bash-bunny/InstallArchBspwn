@@ -122,6 +122,7 @@ sudo pacman -S --noconfirm --needed metagoofil
 # For windows
 sudo pacman -S --noconfirm --needed windows-binaries
 sudo pacman -S --noconfirm --needed mimikatz
+sudo pacman -S --noconfirm --needed onesixtyone
 # For wifi
 sudo pacman -S --noconfirm --needed wifiphisher-git wifijammer-git
 
@@ -136,7 +137,7 @@ go get -u github.com/ffuf/ffuf
 go get -u github.com/lc/gau
 go get -u github.com/hakluke/hakrawler
 go get -u github.com/OJ/gobuster
-go get -u https://github.com/asciimoo/wuzz
+go get -u github.com/asciimoo/wuzz
 
 echo "Disabling beep sound"
 sudo -- sh -c 'echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf'
