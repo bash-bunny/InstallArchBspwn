@@ -398,6 +398,8 @@ sudo pacman -S --noconfirm --needed radare2
 sudo pacman -S --noconfirm --needed parallel
 sudo pacman -S --noconfirm --needed mysql
 sudo pacman -S --noconfirm --needed perl-image-exiftool
+#For windows
+sudo pacman -S --noconfirm --needed nbtscan
 # For Wifi
 sudo pacman -S --noconfirm --needed wpscan
 sudo pacman -S --noconfirm --needed reaver bully
