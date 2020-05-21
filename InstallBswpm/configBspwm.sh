@@ -119,6 +119,7 @@ sudo pacman -S --noconfirm --needed recon-ng-git
 sudo pacman -S --noconfirm --needed shellter
 sudo pacman -S --noconfirm --needed theharvester-git
 sudo pacman -S --noconfirm --needed metagoofil
+sudo pacman -S --noconfirm --needed smtp-user-enum
 # For windows
 sudo pacman -S --noconfirm --needed windows-binaries
 sudo pacman -S --noconfirm --needed mimikatz
