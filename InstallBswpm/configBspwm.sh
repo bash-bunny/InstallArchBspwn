@@ -111,6 +111,7 @@ sudo pacman -S --noconfirm --needed netdiscover
 sudo pacman -S --noconfirm --needed dirsearch
 sudo pacman -S --noconfirm --needed hash-identifier
 sudo pacman -S --noconfirm --needed dnsenum sublist3r-git dnsrecon
+sudo pacman -S --noconfirm --needed amass
 sudo pacman -S --noconfirm --needed enum4linux
 sudo pacman -S --noconfirm --needed crackmapexec
 sudo pacman -S --noconfirm --needed wafw00f
@@ -126,6 +127,7 @@ sudo pacman -S --noconfirm --needed mimikatz
 sudo pacman -S --noconfirm --needed onesixtyone
 # For wifi
 sudo pacman -S --noconfirm --needed wifiphisher-git wifijammer-git
+sudo pacman -S --noconfirm --needed routersploit-git
 
 sleep 1
 
