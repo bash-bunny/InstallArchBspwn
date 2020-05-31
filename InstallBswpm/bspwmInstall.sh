@@ -237,6 +237,7 @@ sudo pacman -S --noconfirm --needed xclip
 sudo pacman -S --noconfirm --needed jq
 sudo pacman -S --noconfirm --needed fish # Fish shell
 sudo pacman -S --noconfirm --needed nfs-utils
+sudo pacman -S --noconfirm --needed tree
 
 ###############################################################################################
 
