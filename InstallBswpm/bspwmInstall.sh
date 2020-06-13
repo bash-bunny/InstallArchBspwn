@@ -238,6 +238,7 @@ sudo pacman -S --noconfirm --needed jq
 sudo pacman -S --noconfirm --needed fish # Fish shell
 sudo pacman -S --noconfirm --needed nfs-utils
 sudo pacman -S --noconfirm --needed tree
+sudo pacman -S --noconfirm --needed remmina
 
 ###############################################################################################
 
@@ -289,6 +290,7 @@ yay -S --noconfirm --needed brave
 yay -S --noconfirm --needed oblogout
 yay -S --noconfirm --needed gksu
 yay -S --noconfirm --needed cherrytree
+yay -S --noconfirm --needed remmina-plugin-rdesktop
 
 # these come always last
 
