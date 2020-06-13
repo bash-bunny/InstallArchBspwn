@@ -37,7 +37,8 @@ cp -r config/polybar ~/.config/
 cp -r config/Thunar ~/.config/
 cp -r config/variety ~/.config/
 cp -r config/fish ~/.config/
-cp -r config/termite ~/.config/
+cp -r config/i3 ~/.config/
+cp -r config/i3status ~/.config/
 
 echo "Copying wallpapers"
 
