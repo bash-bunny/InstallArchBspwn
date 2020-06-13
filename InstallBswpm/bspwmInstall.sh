@@ -239,6 +239,7 @@ sudo pacman -S --noconfirm --needed fish # Fish shell
 sudo pacman -S --noconfirm --needed nfs-utils
 sudo pacman -S --noconfirm --needed tree
 sudo pacman -S --noconfirm --needed remmina
+sudo pacman -S --noconfirm --needed rdesktop
 
 ###############################################################################################
 
