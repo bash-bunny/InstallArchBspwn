@@ -317,6 +317,8 @@ bindsym $modkey+Ctrl+o exec --no-startup-id ~/.config/bspwm/scripts/picom-toggle
 
 bindsym $modkey+c exec $term -e calcurse
 
+bindsym $modkey+Ctrl+b exec --no-startup-id brave-nightly-bin
+
 # Resize
 bindsym $modkey+Shift+o resize shrink width 12 px or 12 ppt
 bindsym $modkey+Shift+i resize grow height 12 px or 12 ppt
