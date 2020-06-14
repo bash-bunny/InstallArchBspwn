@@ -265,11 +265,7 @@ then
  else
         echo "Yay installed, skipping..."
  fi
-
-echo "Installing category Accessories"
-
-yay -S --noconfirm --needed python2-pyparted
-
+ 
 echo "Installing category Multimedia"
 
 yay -S --noconfirm --needed gradio
@@ -288,7 +284,7 @@ yay -S --noconfirm --needed the_platinum_searcher-bin
 yay -S --noconfirm --needed ttf-font-awesome
 yay -S --noconfirm --needed ttf-mac-fonts
 yay -S --noconfirm --needed nerd-fonts-hack 
-yay -S --noconfirm --needed brave
+yay -S --noconfirm --needed brave-nightly-bin
 yay -S --noconfirm --needed oblogout
 yay -S --noconfirm --needed gksu
 yay -S --noconfirm --needed cherrytree
