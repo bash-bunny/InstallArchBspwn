@@ -93,6 +93,7 @@ set expandtab
 set mouse=
 
 " Colorscheme
+set t_Co=256
 if &t_Co == 256
     try
         color xoria256
@@ -150,7 +151,7 @@ set nofoldenable
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 
 if $VIMENV == 'talk'
-  set background=light
+  set background=dark
   let g:solarized_termcolors=256
   colo solarized
   noremap <Space> :n<CR>
