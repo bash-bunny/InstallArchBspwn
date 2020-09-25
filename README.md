@@ -5,9 +5,9 @@ List of files and scripts to install in a fresh arch install, if this have some 
 All for the bspwm enviroment
 
 ## Usage
-Clone the repo: ``` git clone https://github.com/DeadS3c/InstallArch ```
+Clone the repo: ``` git clone https://github.com/DeadS3c/InstallArchBspwn ```
 
-Change to directory: ``` cd InstallArch/InstallBspwm ```
+Change to directory: ``` cd InstallArchBspwn/InstallBspwm ```
 
 Change file permissions: ``` chmod +x bspwmInstall.sh configBspwm.sh ```
 
